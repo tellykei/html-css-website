@@ -1,3 +1,30 @@
+/*Banner for page redirection.*/
+.banner{
+    display: flex;
+    background-color: gray;
+}
+
+.banner > p{
+    color: black;
+    font-family: 'Gayathri', sans-serif;
+    font-size: 2rem;
+    margin-left: 1rem;
+    padding-right: 4rem;
+}
+
+.banner > a{
+    color: black;
+    font-family: 'Gayathri', sans-serif;
+    font-size: 2rem;
+    margin: 2rem;
+    padding-left: 2rem;
+}
+
+.banner > a:hover{
+    color: black;
+    cursor: pointer;
+}
+
 .home{
     display: flex;
     background-color: white;
@@ -21,7 +48,7 @@
     font-size: 1.5rem;
 }
 
-/*Copyright*/
+/*Copyright Footer*/
 .copyright{
     display: flex;
     padding: 0rem;
