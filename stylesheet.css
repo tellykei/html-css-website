@@ -1,4 +1,4 @@
-.style{
+.home{
     display: flex;
     background-color: white;
     max-height: 5rem; 
@@ -7,14 +7,14 @@
     min-height: 100rem;
 }
 
-.style > h1 {
+.home > h1 {
     padding: 1rem;
     color: black;
     font-family: 'Crimson Text', serif;
     font-size: 1.5rem;
 }
 
-.style > h2 {
+.home > h2 {
     padding: 1rem;
     color: black;
     font-family: 'Crimson Text', serif;
