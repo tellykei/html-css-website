@@ -21,7 +21,7 @@
 }
 
 .banner > a:hover{
-    color: black;
+    color: blue;
     cursor: pointer;
 }
 
@@ -46,6 +46,21 @@
     color: black;
     font-family: 'Crimson Text', serif;
     font-size: 1.5rem;
+}
+
+.productsHome{
+    display: flex;
+    background-color: white;
+    max-height: 5rem; 
+    min-width: 5rem;
+    min-height: 100rem;
+}
+.products{
+    height: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    border: .2rem solid blue;
 }
 
 /*Copyright Footer*/
