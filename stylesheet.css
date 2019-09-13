@@ -61,19 +61,18 @@
     font-size: 1.5rem;
 }
 
-.productsHome{
+.productsPage{
     display: flex;
     background-color: white;
     max-height: 5rem; 
     min-width: 5rem;
-    min-height: 100rem;
+    min-height: 20rem;
 }
+
 .products{
-    height: 5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
-    border: .2rem solid blue;
+    height: 20rem;
+    width: 20rem;
+    margin-left: 14rem;
 }
 
 /*Copyright Footer*/
