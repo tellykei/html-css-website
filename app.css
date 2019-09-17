@@ -3,8 +3,40 @@ div.box {
   width: 300px;
   background-color: #bbbbaa;
 }
-p.feature {
-  height: 75%;
-  width: 75%;
-  background-color: #0088dd;
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: yellow;
+  font-size: 2rem;
+}
+.flex-container {
+  padding: 2rem 2rem 2rem;
+
+  display: flex;
+  background: green;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.container_image {
+  margin: 1rem 1rem;
+  width: 30rem;
+  object-fit: contain;
+  align-self: flex-end;
+}
+.container_text {
+  padding: 2rem 2rem;
+  flex: 1 1 flex-end;
+  align-items: top;
+  justify-content: left;
+}
+.item {
+  background: white;
 }
