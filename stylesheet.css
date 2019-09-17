@@ -67,12 +67,23 @@
     max-height: 5rem; 
     min-width: 5rem;
     min-height: 20rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
 }
 
 .products{
+    display: flex;
     height: 20rem;
     width: 20rem;
-    margin-left: 14rem;
+    flex-direction: column;
+    margin-left: 7rem;
+}
+
+img.products{
+    display: flex;
+    max-width: 100%;
+    min-width: 20%;
+    flex-direction: column;
 }
 
 /*Copyright Footer*/
@@ -80,6 +91,7 @@
     display: flex;
     background-color: slategray;
     border: .1rem solid black;
+    flex: 1 1 row;
 }
 
 .copyright > p{
