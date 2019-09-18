@@ -13,30 +13,37 @@ div.box {
 .container {
   position: relative;
   text-align: center;
+  color: orange;
+  font-size: 3rem;
+}
+.slogan {
+  position: relative;
+  text-align: center;
   color: yellow;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 .flex-container {
   padding: 2rem 2rem 2rem;
-
+  max-height: 20rem;
   display: flex;
-  background: green;
   align-items: center;
   justify-content: center;
   text-align: left;
 }
 .container_image {
   margin: 1rem 1rem;
-  width: 30rem;
+  max-width: 40rem;
   object-fit: contain;
   align-self: flex-end;
 }
 .container_text {
-  padding: 2rem 2rem;
+  margin: 1rem 10rem;
   flex: 1 1 flex-end;
-  align-items: top;
-  justify-content: left;
 }
 .item {
   background: white;
+}
+img.resize {
+  width: 25rem;
+  height: 20rem;
 }
