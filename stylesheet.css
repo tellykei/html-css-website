@@ -67,12 +67,32 @@
     max-height: 5rem; 
     min-width: 5rem;
     min-height: 20rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
 }
 
 .products{
+    display: flex;
     height: 20rem;
     width: 20rem;
-    margin-left: 14rem;
+    flex-direction: column;
+    margin-left: 7rem;
+    border-color: black;
+    border: .2rem solid black;
+    border-bottom: 0;
+    margin-bottom: -5rem;
+}
+
+img.products{
+    display: flex;
+    max-width: 100%;
+    min-width: 20%;
+    border-color: white;
+}
+
+.products > h2:hover{
+    font-size: 2rem;
+    text-decoration: underline;
 }
 
 .about >h1{
@@ -122,7 +142,7 @@ img.about{
 .copyright{
     display: flex;
     background-color: slategray;
-    border: .1rem solid black;
+    border: .2rem solid black;
 }
 
 .copyright > p{
