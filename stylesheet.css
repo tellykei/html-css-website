@@ -77,10 +77,8 @@
     width: 20rem;
     flex-direction: column;
     margin-left: 7rem;
-    border-color: black;
     border: .2rem solid black;
     border-bottom: 0;
-    margin-bottom: -5rem;
 }
 
 img.products{
